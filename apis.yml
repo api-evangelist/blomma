@@ -1,7 +1,26 @@
 aid: blomma
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blomma.png
 name: Blomma
-description: Blomma is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Blomma is an AI-powered career coaching platform that pairs artificial
+  intelligence with emotional intelligence to act as a private thinking partner for
+  professionals. Through chat-based coaching, guided reflection, goal-setting with
+  built-in accountability, a personal journal, and a growth dashboard, Blomma helps
+  founders, people leaders, and ambitious professionals turn abstract aspirations
+  into concrete, trackable goals, and can personalize coaching from uploaded performance
+  reviews and development plans. It is delivered as a consumer subscription through
+  web and mobile apps, with custom team plans for organizations, and does not currently
+  expose a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/blomma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,20 @@ x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Career Coaching
+- Artificial Intelligence
+- Coaching
+- Professional Development
+- Emotional Intelligence
+- Productivity
+- Consumer Application
+- HR Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,24 @@ maintainers:
 common:
 - type: Website
   url: https://blomma.com
+- type: Pricing
+  url: https://blomma.com/pricing
+- type: SignUp
+  url: https://app.blomma.com/signup
+- type: Login
+  url: https://signin.blomma.com
+- type: TermsOfService
+  url: https://blomma.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://blomma.com/privacy
+- type: Support
+  url: mailto:support@blomma.com
+- type: Blog
+  url: https://blomma.com/news
+- type: DomainSecurity
+  url: security/blomma-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
